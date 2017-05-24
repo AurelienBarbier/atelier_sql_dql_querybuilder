@@ -1,6 +1,6 @@
 # Atelier SQL, DQL, QueryBuilder
 Vous n'avez rien compris a mon histoire de DQL et de Query Builder ? OK, qu'a cela ne tienne !
-Je vais vous faire travailler un peu le sujet en repartant de la du checkpoint numéro 3.
+Je vais vous faire travailler un peu le sujet en repartant de la BDD du checkpoint numéro 3.
 
 
 ## Principe général
@@ -39,6 +39,8 @@ Crée dans le fichier approprié les différentes méthodes qui permettent d'eff
 
 ### Un peu de documentation :
 
-*[Doctrine & Symfony](http://symfony.com/doc/current/doctrine.html),
-*[Doctrine et le DQL](http://docs.doctrine-project.org/projects/doctrine-orm/en/latest/reference/dql-doctrine-query-language.html),
-*[Doctrine et le QueryBuilder](http://docs.doctrine-project.org/projects/doctrine-orm/en/latest/reference/query-builder.html).
+[Doctrine & Symfony](http://symfony.com/doc/current/doctrine.html),
+
+[Doctrine et le DQL](http://docs.doctrine-project.org/projects/doctrine-orm/en/latest/reference/dql-doctrine-query-language.html),
+
+[Doctrine et le QueryBuilder](http://docs.doctrine-project.org/projects/doctrine-orm/en/latest/reference/query-builder.html).
