@@ -1,24 +1,24 @@
 # Atelier SQL, DQL, QueryBuilder
-Vous n'avez rien compris a mon histoire de DQL et de Query Builder ? OK, qu'a cela ne tienne !
+Vous n'avez rien compris à mon histoire de DQL et de Query Builder ? OK, qu'à cela ne tienne !
 Je vais vous faire travailler un peu le sujet en repartant de la BDD du checkpoint numéro 3.
 
 
 ## Principe général
 
-Je vais te donner une liste de consigne qui ont toutes pour but de récupérer une ou plusieurs informations en base de donnée.
+Je vais te donner une liste de consignes qui ont toutes pour but de récupérer une ou plusieurs informations en base de donnée.
 Tu devras trouver comment récupérer en BDD l'information demandée grâce aux différents moyens possibles : SQL (que tu maîtrise les yeux fermés maintenant), en DQL et avec le queryBuilder.
-Certaines vont te paraître simples ou déjà vu, mais c'est pour mieux te mettre en jambe.
+Certaines vont te paraîtres simples ou déjà vu, mais c'est pour mieux te mettre en jambe.
 Chaque demande devra etre realisée en SQL, puis en DQL et enfin avec le QueryBuilder.
-Faire et refaire, ce n'est pas toujours agréable, mais ca fait parti du processus d'apprentissage.
+Faire et refaire, ce n'est pas toujours agréable, mais ça fait parti du processus d'apprentissage.
 
 ## Ce que j’attends de toi :
 
-1. Affiche la liste de tous les épisode d'une série,
+1. Affiche la liste de tous les épisodes d'une série,
 2. Affiche le nombre total d’épisodes contenus en BDD,
 3. Affiche l’épisode le moins bien noté de toute la BDD,
 4. Affiche l’épisode le mieux noté d'une série précise,
 5. Affiche les 3 pires séries à ne pas regarder,
-6. Affiche les 3 meilleures épisodes toutes series confondues en indiquant le nom de la serie,
+6. Affiche les 3 meilleures épisodes toutes series confondues en indiquant le nom de la série,
 7. Affiche la série la plus longue en nombre d’épisodes,
 8. Affiche toutes les séries sorties avant 2000.
 9. Affiche toutes les séries avec le nombre total d’épisodes pour chaque saison d'une série,
@@ -28,13 +28,13 @@ Faire et refaire, ce n'est pas toujours agréable, mais ca fait parti du process
 
 ### Pour le SQL :
 Crée toi une branche sur ce projet avec ton nom.
-Ajoutes un fichier exercice.sql où tu mettras toutes tes requêtes SQL
+Ajoutes un fichier exercice.sql où tu mettras toutes tes requêtes SQL.
 
 ### Pour le DQL et QueryBuilder :
 Reprend ton projet de checkpoint 3.
-Depuis la branche a ton nom, crée une nouvelle branche nommée nom_AD.
+Depuis la branche à ton nom, crée une nouvelle branche nommée nom_AD.
 Crée dans le fichier approprié les différentes méthodes qui permettent d'effectuer ces récupérations en base de données.
-Afin d'afficher le resultat de ces differentes requetes, tu peux creer une route /tvshow/dql et une route /tvshow/querybuilder
+Afin d'afficher le résultat de ces différentes requêtes, tu peux créer une route /tvshow/querybuilder
 
 * Une seule méthode par consigne et par approche,
 * Chaque méthode utilise en suffixe DQL ou QB (ex. findAllQB() / findAllDQL() )
